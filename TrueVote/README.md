@@ -2,18 +2,19 @@
 
 TrueVote is a secure, scalable, and user-friendly online voting system designed to simplify the election process for organizations, schools, and communities. It allows administrators to create and manage elections, register candidates, and monitor results, while voters can cast their votes easily and securely from any device.
 
+The application focuses on secure authentication, role-based access control, data integrity, and prevention of duplicate voting.
 
 ## Features
 
-- **User Authentication**: Secure login for voters and admins via Supabase Auth.
-
+- **User Authentication**:  Secure user login using JWT-based authentication.
+  
 - **Election Management** : Admins can create elections with start/end dates and add candidates.
 
 - **Voting Module** : Voters can view active elections and cast a single vote per election.
 
 - **Result Calculation**: Automatic vote tallying and real-time results display.
 
-- **Role-Based Access**: Admins have full management privileges, voters have restricted access.
+- **Role-Based Access**: Admins have full management privileges, voters have restricted access.Separate permissions for administrators and voters.
 
 - **Data Security**: One vote per user per election, with all data stored securely in a relational database.
 
@@ -167,5 +168,5 @@ The API will be available at `http://localhost:8000`
 If you encounter any issues or have questions:
 
 Mobile number:9618273065
-Email:srinidhireddyyy786@gmail.com
+Email:sriramreddy892@gmail.com
 
